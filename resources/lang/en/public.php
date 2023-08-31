@@ -1,0 +1,56 @@
+<?php 
+
+return [
+    "nav-select" => "Select city",
+    "viloyat-list" => "Regions list",
+    "district" => "region",
+    "republic" => "Republic",
+    "type-city" => "Type city name",
+    "close" => "Close",
+    "ramazon-calendar"=> "Ramadan calendar",
+    "namaz-time" => "prayer time",
+    "namaz-times" => "prayer times",
+    "yearly-namaz-times" => "yearly prayer times",
+    "bomdod" => "Fajr",
+    "til-bomdod" => "Until Fajr",
+    "tom-bomdod" => "Until tommorow's fajr",
+    "quyosh" => "Shuruk",
+    "til-quyosh" => "Until Shuruk",
+    "peshin" => "Dhuhr",
+    "til-peshin" => "Until Dhuhr",
+    "asr" => "Asr",
+    "til-asr" => "Until Asr",
+    "shom" => "Maghrib",
+    "til-shom" => "Until Maghrib",
+    "hufton" => "Isha",
+    "til-hufton" => "Until Isha",
+    "saharlik" => "before (Sukhur)",
+    "after" => "after (Iftar)",
+    "daily" => "Daily",
+    "monthly" => "Monthly",
+    "yearly" => "Yearly",
+    "current-time" => "Current time: ",
+    "qibla" => "Find qibla",
+    "qamar" => "Qamar",
+    "months" => ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "months_qamar" => ["Muharram","Safar","Rabi ul Awal","Rabi Al-Akhar","Jumada Al-Awwal","Jumada Al-Akhirah","Rajab","Shaban","Ramadan","Shawwal","Dhul Qadah","Dhul Hijjah"],
+    "day" => "Day",
+    "weekdays" => ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "choose_lang" => "Choose language",
+    'district-list-title' => "Namaz times Uzbekistan districts",
+    "viloyat_cities" => "City list. :viloyat",
+    "dedication" => "<p>Website: Dedicated to the memory of our mother Ozodakhon.</p>Source: Book Media Nashr, 2022-2023, 1444 Hijri Calendar Book.<br/>
+    All rights reserved. <br/>
+    The source must be indicated when using information from the site.",
+    "iftar" => "Iftar",
+    'sahar' => "Sukhur",
+    'ramazan-times' => 'ramadan times',
+    'ramazan-time' => 'ramadan time',
+    'day-week' => "Xafta kuni",
+    'date' => 'Sana',
+    "mobile-choose-lang" => "EN",
+    "meta-namaz-times" => "Prayer times"
+    
+
+
+];

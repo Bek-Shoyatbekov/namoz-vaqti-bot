@@ -1,0 +1,522 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.logobg {
+    background-color:  #d7dbd8;
+    padding: 12px;
+}
+.logo-wrap{
+	align-items:center;	
+}
+.logo {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    font-weight: bold;                      /*Site's logo*/
+    margin-left: 12px;
+}
+
+.logo a {
+    color: #14a828;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #056615;
+    text-decoration: none;
+    transition: .8s;
+}
+.vil {
+    padding: 50px;
+    color: white;
+
+    text-align: center;
+}
+
+
+.top {
+    margin-top: 0px;
+}
+
+.boldlinks{
+    font-size: 17px;
+    color: #000;
+}
+
+.popover{
+    background-color: #6b0f11;
+}
+
+.popover-header{
+    background-color: #6b0f11;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.popover-body{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.font-big{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.nav-out {
+    background-color: #856c52;
+    padding: 5px;
+}
+
+h2 {
+    max-width: 95%;
+    margin: auto;
+}
+
+.topnav {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;                     /*Navbar's settings*/
+    margin-top: 10px;
+}
+
+.topnav a:hover {
+    color: #14a828;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #d7dbd8;
+    border-radius: 8px;
+    transition: .4s;
+    padding: 10px;
+}
+
+.topnav a {
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagein {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.date {
+    text-align: center;
+    font-weight: bold;
+}
+
+.date p {
+    display: inline;
+}
+
+nav {
+    margin-bottom:-10px;
+}
+
+.nav-but {
+    background-color: #856c52;
+    text-align: center;
+    width: 100%;
+}
+
+.button{
+    text-align: center;
+    background-color: rgba(82, 46, 9, .7);
+    padding: 5px;
+}
+
+.btnmar {
+    margin: 1px 40px;
+    padding: 5px;
+}
+
+.but1 {
+    font-size: 20px !important;
+    background-color: #fff;
+    padding: 4px 30px;
+    color: #000;
+
+}
+.but1 {
+    margin: 2px;
+}
+
+.data {
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    color: #fff;
+}
+
+
+main {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.ad__container {
+
+    background-image: url("../img/bg1.png");
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+}
+
+.ad__in {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.time{
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+    opacity: .9;
+}
+
+.ad__item {
+    background-color: #d7dbd8;
+    /*border-radius: 23px;*/
+    background-color: rgba(105, 102, 102, .2);  /*opacity РґР»СЏ С„РѕРЅР°*/
+    padding: 5px 5px;
+    margin: 40px 5px;
+    width: 185px;
+    height: 135px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.bor {
+    border: 2px solid black;
+    /*border-radius: 20px; */
+}
+
+.nam {
+    opacity: .9;
+    color: #000;
+}
+
+.current_time{
+    padding-top: -16px;
+    padding-bottom: 15px;
+
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    /*background-color: #c49f62;*/
+    background-color: rgba(120, 68, 21, .6);
+
+}
+
+.active_time {
+
+    transform: scale(1.35);
+    border: 4px solid #fff;
+    background-color: rgba(82, 46, 9, .5);
+    margin: auto;
+
+}
+
+.active_time   .nam{
+    color: #000;
+}
+
+.active_time   .time{
+    color: #fff;
+}
+
+
+
+.active_time > p{
+    font-size: 24px;
+}
+
+
+footer {
+    padding-top: 40px;
+    background: #d7dbd8;
+}
+
+
+
+.footer {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.footer img {
+    margin: 6px;
+}
+
+.footer img:hover {
+    opacity: 0.5;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.maker {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.maker a:hover {
+    text-decoration: none;
+    color: #14a828;
+    transition: .4s;
+    background-color: #d7dbd8;
+    border-radius: 8px;
+    opacity: 0.5;
+
+}
+
+
+
+.cop a {
+    color: #000;
+    font-weight: bold;
+}
+
+.cop a:hover {
+    text-decoration: none;
+    color: #14a828;
+    transition: .4s;
+    background-color: #d7dbd8;
+    border-radius: 8px;
+}
+
+#city_name{
+    color: rgb(82, 46, 9);
+}
+
+#search {
+    font-size: 30px;
+}
+
+.table_calendar{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    max-width: 960px;
+    border-spacing: 0em;
+    padding: 0;
+    /*margin: 0!important;*/
+}
+
+.vil {
+    padding: 5px;
+    background-color: #ae8e72;
+}
+
+@media screen and (max-width: 1420px) {
+    #search {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    #search {
+        display: block;
+    }
+
+    .but1{
+        font-weight: 700;
+        font-size: 30px;
+
+    }
+
+    .boldlinks {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .active_time {
+        transform: scale(1.1);
+    }
+
+    .ad__container {
+        background-image: url("../img/bg2.png");
+        background-color: rgba(120, 68, 21, .6);
+        height: auto;
+    }
+
+    .ad__item {
+        width: 30%;
+        display: block;
+        margin-bottom: 130px;
+    }
+
+    .data {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .ad__item {
+        width: 45%;
+        display: block;
+        margin: 5px auto;
+    }
+
+    .ad__container {
+        background-image: url("../img/mini.jpg");
+        background-color: rgba(120, 68, 21, .6);
+        height: auto;
+    }
+
+    .data {
+        display: block;
+    }
+
+    .active_time {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #city_name{
+        font-size: 20px;
+    }
+
+    .ad__in {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .ad__item {
+        width: 80%;
+        margin: 5px auto;
+    }
+
+    .ad__container {
+        background-image: url("../img/mini.jpg");
+        background-color: rgba(120, 68, 21, .6);
+        height: auto;
+    }
+
+    .but1 {
+        font-size: 20px;
+        background-color: #fff;
+        padding: 4px 18px;
+        color: #000;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 455px){
+    .logo{
+        font-size: 18px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+    .btnmar{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    .table_calendar{
+        margin-left: auto!important;
+        margin-right: auto!important;
+        width: 330px;
+        border-spacing: 0em;
+        padding: 0;
+        /*margin: 0!important;*/
+    }
+    .table-info{
+        font-size: 9px;
+        font-weight: bold;
+        padding: 0;
+    }
+    .table_calendar  tr {
+        display: table-row;
+    }
+    .table_calendar  td{
+        display: table-cell;
+        text-align: center;
+        font-size: 12px;
+        border: 1px solid lightgrey;
+        padding: 0;
+        margin: 0;
+    }
+
+    .kalsto{
+        padding: 4px;
+        font-size: 12px;
+    }
+}
+
+
+/* Dropdowns */
+
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: .25rem .5rem;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
